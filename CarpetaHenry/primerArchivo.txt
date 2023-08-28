@@ -1,0 +1,53 @@
+Administrador@PC-TOSHB MINGW64 /d
+$ cd RepositorioHenry/
+
+Administrador@PC-TOSHB MINGW64 /d/RepositorioHenry (main)
+$ mkdir CarpetaHenry
+
+Administrador@PC-TOSHB MINGW64 /d/RepositorioHenry (main)
+$ ls
+CarpetaHenry/  README.md
+
+Administrador@PC-TOSHB MINGW64 /d/RepositorioHenry (main)
+$ cd CarpetaHenry/
+
+Administrador@PC-TOSHB MINGW64 /d/RepositorioHenry/CarpetaHenry (main)
+$ touch "primerArchivo.txt"
+
+Administrador@PC-TOSHB MINGW64 /d/RepositorioHenry/CarpetaHenry (main)
+$ ls
+primerArchivo.txt
+
+Administrador@PC-TOSHB MINGW64 /d/RepositorioHenry/CarpetaHenry (main)
+$ git add .
+
+Administrador@PC-TOSHB MINGW64 /d/RepositorioHenry/CarpetaHenry (main)
+$ git commit -m "ejercicios resueltos"
+[main 69c08b5] ejercicios resueltos
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 CarpetaHenry/primerArchivo.txt
+
+Administrador@PC-TOSHB MINGW64 /d/RepositorioHenry/CarpetaHenry (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 335 bytes | 335.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/jhogasa/RepositorioHenry.git
+   c9e3857..69c08b5  main -> main
+
+Administrador@PC-TOSHB MINGW64 /d/RepositorioHenry/CarpetaHenry (main)
+$ ^C
+
+Administrador@PC-TOSHB MINGW64 /d/RepositorioHenry/CarpetaHenry (main)
+$ Administrador@PC-TOSHB MINGW64 /d
+$ cd RepositorioHenry/
+
+Administrador@PC-TOSHB MINGW64 /d/RepositorioHenry (main)
+$ mkdir CarpetaHenry
+
+Administrador@PC-TOSHB MINGW64 /d/RepositorioHenry (main)
+$ ls
+CarpetaHenry/  README.md
